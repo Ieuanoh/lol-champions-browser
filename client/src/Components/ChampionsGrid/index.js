@@ -61,6 +61,9 @@ const SearchBox = styled.div`
   >div {
     display:flex;
     justify-content:center;
+    @media(max-width:720px) {
+      flex-direction:column;
+    }
   }
 
   p {
@@ -75,7 +78,13 @@ const SearchBox = styled.div`
     border:2px gold solid;
     color: white;
     padding:0rem 1rem;
+    @media (min-width:720px) {
     margin-left:1rem;
+    }
+    @media (max-width:720px) {
+      height:4rem;
+      margin:2rem;
+    }
   }
 `;
 
