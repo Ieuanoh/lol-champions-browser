@@ -4,7 +4,7 @@ Not production ready as it uses a Node proxy server and Create React App's proxy
 
 ## Getting Started
 
-To start the app, create a .env file in the root folder and input your Riot Games API Key like so:
+To start the app, create a file called '.env'  in the root folder and input your Riot Games API Key like so:
 
 `API_KEY=YOURKEY`
 
