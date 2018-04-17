@@ -1,6 +1,6 @@
 Simple champion browser app for League of Legends using the Riot API. Pulls in data using the static champions endpoint and stores the response in local storage.
 
-Not production ready as it uses a Node proxy server due to CORS.
+Not production ready as it uses a Node proxy server and Create React App's proxy setting to work with CORS. You may also need to add some firther throttling/caching settings when requesting the API due to rate limiting from the Riot API 
 
 ## Getting Started
 
